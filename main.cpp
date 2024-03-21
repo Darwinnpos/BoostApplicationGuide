@@ -2,12 +2,15 @@
 //
 
 #include <iostream>
+
+#include "lockfree_queue.h"
 #include "range.h"
 
 
 int main()
 {
-	range::generate();
+	//range::generate();
+	queue::test();
 	std::cout << "Hello World!\n";
 }
 

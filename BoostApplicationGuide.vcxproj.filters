@@ -21,12 +21,18 @@
     <ClCompile Include="range.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="lockfree_queue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="range.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lockfree_queue.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

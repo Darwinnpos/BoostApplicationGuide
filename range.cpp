@@ -37,7 +37,15 @@ void range::generate()
 	// 后向拷贝
 	boost::range::copy_backward(a ,b.end());
 
+	// 大顶堆
 	boost::range::make_heap(a);
 
+	// 唯一
+	boost::range::unique(a);
+
+	//排序
+	boost::range::sort(a);
+
+	// 遍历打印
 	traversal_print(a);
 }
